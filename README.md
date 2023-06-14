@@ -5,7 +5,8 @@
 
 ## Description
 
-This text editor is an PWA that runs on the browser with an option to function offline. The data entered persists in the application using an IndexedDB database.
+This text editor is an PWA that runs on the browser with an option to function offline. The data entered persists in the application using an IndexedDB database. Finally, the app can be installed locally by clicking in the 'Install' button.
+
 
 ## Table of Contents
 
@@ -25,16 +26,19 @@ To run locally:
 - Run the app: `npm run start:dev`.
 - Run in the browser: localhost:3000.
 
+
 ## Usage
 
-The link to access the deployed application is: 
+The link to access the deployed application is *[here](https://evening-reef-41128.herokuapp.com)*.
 
 The website looks like the following image:
-![JEST](./public/images/screenshots/aboutme.png)
+![JEST](./screenshots/jate-pwa.png)
 
-Manifest and Database:
-![Manifest](./public/images/screenshots/portfolio.png)
-![db](./public/images/screenshots/contactme.png)
+Service Worker and Database:
+![sw](./screenshots/jate-sw.png)
+![db](./screenshots/jate-db.png)
+
+To install the app from the browser, click on Install button. An icon will be created in your desktop to easily access the application.
 
 
 ## Credits
@@ -43,9 +47,10 @@ Manifest and Database:
 
 - PWA Module mini-project used as reference.
 
-- Tutor: Vinnie Lopez (assistance with data basa).
+- Tutor: Vinnie Lopez (assistance with data base).
 
 - Instructor: Saurav Khatiwada
+
 
 ## License
 
